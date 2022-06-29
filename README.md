@@ -20,7 +20,7 @@ Users should be able to:
 - See hover states for interactive elements
 ### Links
 
-- Live Site URL: [live site is here](https://your-live-site-url.com)
+- Live Site URL: [live site is here](https://preview-card-component-3cards.netlify.app/)
 
 ### Built with
 - Semantic HTML5 markup
