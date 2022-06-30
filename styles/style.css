@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-size: 15px;
+    font-size:.9rem;
 }
 
 .flex-body {
@@ -24,54 +24,12 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-.flex-nav {
-    background-color: blueviolet;
-}
-
-nav p {
-    font-size: 40px;
-    font-weight: 700;
-    color: coral;
-    padding: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-nav ul li a:hover {
-    border-left: 4px dotted red;
-    border-bottom: .5px solid red;
-}
-
-nav ul li a {
-    padding: 2px;
-    margin: 5px;
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
 .flex-main {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: fit-content;
+    min-height: 100vh;
 }
 
 .flex-container {
@@ -82,6 +40,9 @@ nav ul li a {
     flex-wrap: wrap;
     margin-top: 80px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    
 }
 
 .items-flex {
@@ -97,8 +58,6 @@ nav ul li a {
 
 .item1 {
     background-color: hsl(31, 77%, 52%);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
 }
 
 .item2 {
@@ -107,11 +66,9 @@ nav ul li a {
 
 .item3 {
     background-color: hsl(179, 100%, 13%);
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
-h2 {
+h1 {
     color: hsl(0, 0%, 95%);
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
@@ -122,9 +79,10 @@ p {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-button {
+.button {
     padding: 15px;
     border-radius: 25px;
+    background-color: white;
     width: 70%;
     margin-top: 20px;
     border: none;
@@ -132,6 +90,7 @@ button {
     font-weight: 400;
     font-family: 'Lexend Deca', sans-serif;
     outline: none;
+    text-align: center;
 }
 
 .button1 {
@@ -177,7 +136,7 @@ button {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size:.7rem;
     text-align: center;
     padding:30px;
 }
